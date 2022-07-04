@@ -1,0 +1,89 @@
+.disclaimer{display: none;}
+
+/*general section*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 32, 31);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+/*header section*/
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 7.5px;
+}
+
+
+/*body section*/
+#body {
+    margin-top: -25px;
+}
+
+/*first content-element*/
+.body-element-text {
+    text-align: center;
+    margin: 55px 0px 20px 0px;
+}
+
+.body-element-text .body-element-item {
+    margin-top: -5px;
+    font-size: 17.5px;
+}
+
+.body-element-link {
+    text-align: center;
+    font-size: 30px;
+    margin: 75px 0px 20px 0px;
+}
+
+.body-element-link a {
+    color: white;
+    display: inline-flex;
+    margin: 30px;
+}
+
+.body-element-link p {
+    font-size: 15.5px;
+    margin-top: -20px;
+}
+
+
+/*footer section*/
+#footer {
+    color: rgb(165, 165, 165);
+    margin-top: 200px;
+    text-align: center;
+    font-size: 14.5px;
+    bottom: 0;
+}
+
+/*footer-block section*/
+#footer-blocks {
+    text-align: center;
+}
+
+#footer-item {
+    /*margin-top: 95px;*/
+    margin-bottom: -10px;
+}
